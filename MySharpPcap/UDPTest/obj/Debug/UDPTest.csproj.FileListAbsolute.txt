@@ -1,0 +1,9 @@
+D:\Upload\Code\MySharpPcap\MySharpPcap\UDPTest\bin\Debug\UDPTest.exe.config
+D:\Upload\Code\MySharpPcap\MySharpPcap\UDPTest\bin\Debug\UDPTest.exe
+D:\Upload\Code\MySharpPcap\MySharpPcap\UDPTest\bin\Debug\UDPTest.pdb
+D:\Upload\Code\MySharpPcap\MySharpPcap\UDPTest\obj\Debug\UDPTest.csprojResolveAssemblyReference.cache
+D:\Upload\Code\MySharpPcap\MySharpPcap\UDPTest\obj\Debug\UDPTest.Form1.resources
+D:\Upload\Code\MySharpPcap\MySharpPcap\UDPTest\obj\Debug\UDPTest.Properties.Resources.resources
+D:\Upload\Code\MySharpPcap\MySharpPcap\UDPTest\obj\Debug\UDPTest.csproj.GenerateResource.Cache
+D:\Upload\Code\MySharpPcap\MySharpPcap\UDPTest\obj\Debug\UDPTest.exe
+D:\Upload\Code\MySharpPcap\MySharpPcap\UDPTest\obj\Debug\UDPTest.pdb

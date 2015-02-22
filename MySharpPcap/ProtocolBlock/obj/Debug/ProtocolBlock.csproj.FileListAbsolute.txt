@@ -1,0 +1,13 @@
+D:\Upload\Code\MySharpPcap\MySharpPcap\ProtocolBlock\obj\Debug\ProtocolBlock.csprojResolveAssemblyReference.cache
+D:\Upload\Code\MySharpPcap\MySharpPcap\ProtocolBlock\obj\Debug\ProtocolBlock.Form1.resources
+D:\Upload\Code\MySharpPcap\MySharpPcap\ProtocolBlock\obj\Debug\ProtocolBlock.Properties.Resources.resources
+D:\Upload\Code\MySharpPcap\MySharpPcap\ProtocolBlock\obj\Debug\ProtocolBlock.csproj.GenerateResource.Cache
+D:\Upload\Code\MySharpPcap\MySharpPcap\ProtocolBlock\obj\Debug\ProtocolBlock.exe
+D:\Upload\Code\MySharpPcap\MySharpPcap\ProtocolBlock\obj\Debug\ProtocolBlock.pdb
+D:\Upload\Code\MySharpPcap\MySharpPcap\ProtocolBlock\bin\ProtocolBlock.exe.config
+D:\Upload\Code\MySharpPcap\MySharpPcap\ProtocolBlock\bin\ProtocolBlock.exe
+D:\Upload\Code\MySharpPcap\MySharpPcap\ProtocolBlock\bin\ProtocolBlock.pdb
+D:\Upload\Code\MySharpPcap\MySharpPcap\ProtocolBlock\bin\PacketDotNet.dll
+D:\Upload\Code\MySharpPcap\MySharpPcap\ProtocolBlock\bin\SharpPcap.dll
+D:\Upload\Code\MySharpPcap\MySharpPcap\ProtocolBlock\bin\PacketDotNet.xml
+D:\Upload\Code\MySharpPcap\MySharpPcap\ProtocolBlock\bin\SharpPcap.xml

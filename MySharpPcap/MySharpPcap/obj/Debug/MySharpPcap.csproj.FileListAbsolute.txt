@@ -1,0 +1,10 @@
+D:\Upload\Code\MySharpPcap\MySharpPcap\MySharpPcap\bin\Debug\MySharpPcap.exe.config
+D:\Upload\Code\MySharpPcap\MySharpPcap\MySharpPcap\bin\Debug\MySharpPcap.exe
+D:\Upload\Code\MySharpPcap\MySharpPcap\MySharpPcap\bin\Debug\MySharpPcap.pdb
+D:\Upload\Code\MySharpPcap\MySharpPcap\MySharpPcap\obj\Debug\MySharpPcap.exe
+D:\Upload\Code\MySharpPcap\MySharpPcap\MySharpPcap\obj\Debug\MySharpPcap.pdb
+D:\Upload\Code\MySharpPcap\MySharpPcap\MySharpPcap\bin\Debug\PacketDotNet.dll
+D:\Upload\Code\MySharpPcap\MySharpPcap\MySharpPcap\bin\Debug\SharpPcap.dll
+D:\Upload\Code\MySharpPcap\MySharpPcap\MySharpPcap\bin\Debug\PacketDotNet.xml
+D:\Upload\Code\MySharpPcap\MySharpPcap\MySharpPcap\bin\Debug\SharpPcap.xml
+D:\Upload\Code\MySharpPcap\MySharpPcap\MySharpPcap\obj\Debug\MySharpPcap.csprojResolveAssemblyReference.cache
