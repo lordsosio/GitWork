@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<style type="text/css">
+        body{
+            margin: 0;
+            background-color: #9cc3d5;
+            text-align: center;
+            color: white;
+            user-select: none;
+            padding-top: 18vh;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            background-color: #5ca3dd93;
+        }
+        h2{
+            font-size: 150px;
+            margin: 0;
+            text-shadow: 15px 5px 2px black;
+        }
+        h3{
+            font-size: 40px;
+            margin: 20px;
+        }
+        p{
+            font-size: 18px;
+            margin: 5px;
+        }
+        p:last-of-type{
+            margin-bottom: 35px;
+        }
+        a{
+            text-decoration: none;
+            
+        }
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>分享页面跳转中</title>
+
+</head>
+<body>
+    <div class="container">
+        <p>正在打开分享的页面</p>
+		<p>请确保在MOA中打开“远程办公”</p>
+    </div>
+</body>
+
+<script>
+function GetRequest() {
+    var urlStr=location.href;
+    if (typeof urlStr == "undefined") {
+        var url = decodeURI(location.search); //获取url中"?"符后的字符串
+    } else {
+        var url = "?" + urlStr.split("?")[1];
+    }
+    var theRequest = new Object();
+    if (url.indexOf("?") != -1) {
+        var str = url.substr(1);
+        strs = str.split("&");
+        for (var i = 0; i < strs.length; i++) {
+            theRequest[strs[i].split("=")[0]] = decodeURI(strs[i].split("=")[1]);
+        }
+    }
+    return theRequest;
+}
+function isWeChat(){
+	var ua = window.navigator.userAgent.toLowerCase();
+	//alert(ua);
+	if(ua.match(/MicroMessenger/i) == 'micromessenger'){
+		if(ua.match(/wxwork/i) == 'wxwork'){
+			return false;
+		}
+		return true;
+	}else{
+		return false;
+	}
+}
+function goUrl(){
+	var params = GetRequest();
+	var url = params['url'];
+	window.location.replace(url);
+}
+function checkServerStatus()
+{
+    var script = document.body.appendChild(document.createElement("script"));
+	script.src = "http://fis.g6.woa.com:8080/client-proxy/";
+    // 如果可以访问内网，则打开FIS分享页面（此逻辑在企业微信可行，微信不可行）
+	script.onload = goUrl;
+	// 如果不能加载，则打开错误提示页
+    script.onerror = function()
+    {
+		window.location.replace("moa_error.html");
+    };
+
+}
+if(isWeChat())// 如果在微信打开，则直接打开内网地址，不进行服务器状态判定
+	goUrl();
+else
+	checkServerStatus();
+</script>
+</html>
+
